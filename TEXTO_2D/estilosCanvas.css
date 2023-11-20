@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* permite meter el padding dentro de los calculos */
+}
+
+canvas{
+    background-color: rgb(226, 221, 221);
+    position: absolute;
+}
+
+input {
+    position: absolute;
+    /*   el border-box no cuenta con el margin por lo que si quieres evitar barras de scroll deberas usar el 100% - el margin x2 */
+    width: calc(100% - 5px); 
+    margin: 0px;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px #161af1;
+
+    transition: 0.5s ease-in-out; /* duracion de la transicion de movimiento y su tipo */
+    z-index: 99;
+}
+
+input:hover{
+    transform: translate(0px, 16px); /* transicion de posicion del eje Y -> 16px */
+}
+
+input:focus{
+    transition: 0.9s ease-in-out;
+    outline-color: red;
+}
