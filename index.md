@@ -14,5 +14,5 @@ Soy Fran y me gusta PAblo
 <h2><a href="TROFEO_2D/test.html">Trofeo_2D</a></h2>
 
 # Otra prueba
-[1](TEXTO_2D/texto2D.html)
-[2](TROFEO_2D/test.html)
+* [1](TEXTO_2D/texto2D.html)
+* [2](TROFEO_2D/test.html)
