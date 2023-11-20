@@ -9,3 +9,6 @@ fsdgsfdgf
 Hola soy Ismael 
 
 Soy Fran y me gusta PAblo
+
+<h2><a href="TEXTO_2D/texto2D.html">Texto_2D</a></h2>
+<h2><a href="TROFEO_2D/test.html">Trofeo_2D</a></h2>
