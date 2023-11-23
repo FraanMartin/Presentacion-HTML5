@@ -65,7 +65,7 @@ class Efecto {
     crear() {
         this.canvas.drawImage(this.img, this.imgX, this.imgY);
         const imgData = this.canvas.getImageData(0, 0, this.width, this.height).data; //podria ser 0,0,imgW,imgH para todo el canvas
-        
+        console.log(imgData);
         for (let i = 0; i < this.height; i += this.res) {
             for (let j = 0; j < this.width; j += this.res) {
         
