@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Tipos de input</h1>
+
+    <form action="">
+        <div>
+        <p>Campo de texto simple</p>
+        <input type="text" id="comment" name="comment" value="Esto es un valor por defecto" />
+        </div>
+
+        <div>
+        <p>Contraseña</p>
+        <input type="password" id="pwd" name="pwd" />
+        </div>
+        
+        <div>
+        <p>Campo de dirección de correo electrónico</p>
+        <input type="email" id="email" name="email"/>
+        </div>
+
+        <div>
+        <p>Campo de búsqueda</p>
+        <input type="search" id="search" name="search" />
+        </div>
+
+        <div>
+        <p>Campo número de teléfono</p>
+        <input type="tel" id="tel" name="tel" />
+        </div>
+
+        <div>
+        <p>Campo URL</p>
+        <input type="url" id="url" name="url" />
+        </div>
+
+        <div>
+        <p>Campo numérico</p>
+        <input type="number" name="age" id="age" min="1" max="10" step="2" />
+        </div>
+
+        <div>
+        <p>Slider controls</p>
+        <label for="price">Choose a maximum house price: </label>
+        <input
+        type="range"
+        name="price"
+        id="price"
+        min="50000"
+        max="500000"
+        step="100"
+        value="250000" />
+        <output class="price-output" for="price"></output>
+        </div>
+
+        <div>
+        <p>Datetime-local</p>
+        <input type="datetime-local" name="datetime" id="datetime" />
+        </div>
+
+        <div>
+        <p>Mes</p>
+        <input type="month" name="month" id="month" />
+        </div>
+
+        <div>
+        <p>Hora</p>
+        <input type="time" name="time" id="time" />
+        </div>
+
+        <div>
+        <p>Semana</p>
+        <input type="week" name="week" id="week" />
+        </div>
+
+        <div>
+        <p>Color picker control</p>
+        <input type="color" name="color" id="color" />
+        </div>
+
+        <div>
+        <p>Checkbox</p>
+        <input type="checkbox" id="questionOne" name="subscribe" value="yes" checked />
+        </div>
+
+        <div>
+            <p>Boton de imagen</p>
+            <input type="image" alt="Click me!" src="boton.png" width="" height="30" />
+        </div>
+
+        <fieldset>
+            <legend>Escoge lo que prefieras</legend>
+            <ul>
+              <li>
+                <label for="checked">Checked</label>
+                <input type="checkbox" id="checked" name="checked" value="checked" checked />
+              </li>
+              <li>
+                <label for="Tomate">Normal</label>
+                <input type="checkbox" id="Tomate" name="Tomate" value="Tomate" />
+              </li>
+              <li>
+                <label for="Disabled">Disabled</label>
+                <input type="checkbox" id="Disabled" name="Disabled" value="" disabled />
+              </li>
+            </ul>
+          </fieldset>
+
+        <div>
+            <p>Radio button</p>
+            <input type="radio" id="soup" name="meal" value="soup" checked />
+        </div>  
+        
+        <br>
+
+        <fieldset>
+            <legend>Cual es tu favorita</legend>
+            <ul>
+              <li>
+                <label for="soup">Sopa</label>
+                <input type="radio" id="soup" name="meal" value="soup" checked />
+              </li>
+              <li>
+                <label for="curry">Curry</label>
+                <input type="radio" id="curry" name="meal" value="curry" />
+              </li>
+              <li>
+                <label for="pizza">Pizza</label>
+                <input type="radio" id="pizza" name="meal" value="pizza" />
+              </li>
+            </ul>
+          </fieldset>
+
+
+          <div>
+            <p>Archivos</p>
+            <input type="file" name="file" id="file" accept="image/*" multiple />
+          </div>
+          
+          <div>
+            <p>Botones usando input</p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+            
+            <p>Botones con el type del input</p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+          
+    </form>
+
+</body>
+</html>
